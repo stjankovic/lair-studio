@@ -1,0 +1,89 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="scss/style.css">
+        <script src="http://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+        <title>Darren Clark - version 1.9.2</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="leftContainer">
+                <div class="currentImage image" style="background-image: url('img/left-img/left-img1.jpg');"></div>
+                <div class="nextImage image" style="background-image: url('img/left-img/left-img2.jpg');"></div>  
+            </div>
+            <div class="rightContainer">
+                <div class="currentImage image" style="background-image: url('img/right-img/right-img1.jpg');"></div>
+                <div class="nextImage image" style="background-image: url('img/right-img/right-img2.jpg');"></div>  
+            </div>
+        </div>
+
+        <div class="logo"> <img src="img/logo.png"></div>
+        <div class="nav pulse"></div>
+        <div class="close"> <img src="img/close.png"></div>
+
+        <div class="overlay">
+            <div class="overlay-nav">
+                <div id="inner">
+                    <ul>
+                        <li><a href="#" target="_blank">PINTEREST</a></li>
+                        <li><a href="#" target="_blank">FACEBOOK</a></li>
+                        <li><a class="about-btn">ABOUT</a></li>
+                    </ul>
+                    <hr>
+                    <div id="content"><br>
+                        INTERIOR DESIGN STUDIO <br><br>
+                        Northern Beaches, Sydney <br>
+                        hello@lairstudio.com
+                    </div>
+                </div><!--#inner-->
+            </div><!--overlay-nav-->
+            <div class="overlay-about">
+                <div id="heading">
+                    <h1>ABOUT</h1>
+                    <hr>
+                </div>
+                <div id="content">
+                    Lair Studio specialise is residential & hospitality interios on the Northern Beaches, Sydney. <br>
+                    Director, Rachel Mutton, graduated with a degree in interior design from the University of the <br>
+                    Arts London in 2008. With many years experience in residential & hospitality interiors in both <br>
+                    Europe and Australia we work with you directly to understand your wants and needs to create <br>
+                    an interior concept unique to you. We provide a range of services catering for both large <br>
+                    and small scale projects including: floorplan re-design, colour consultation, materials & finish <br>
+                    specification, furniture selection & layouts, kitchen, bathroom, & bespoke joinery design. <br>
+                    <br>
+                    We'd love to hear from you to discuss your project, email us at: <br>
+                    <f style="color: white;">hellow@lairstudio.com</f>
+                </div>
+            </div><!--overlay-about-->
+        </div><!--overlay-->
+
+        <!-- 
+            Guide: How to add images!
+            1) Upload the images to the apropriate folder (ex: left-img or right-img)
+            2) Make sure that the images are always named [side]-img[number].jpg (ex: left-image2.jpg)
+            3) Keep the images numberically ordered always (ex: left-img1 .. left-img2 .. etc)
+            4) Change the code bellow depending on the image, also keep the images in the code ordered!
+
+            Note:
+                If you are adding 
+
+            If you ever have any issues here is my email (or need anything adjusted):
+            stefanjankovic31@gmail.com
+        -->
+        <div class="leftData">
+            <div class="imageSrcLeft" data-src="img/left-img/left-img1.jpg"></div>
+            <div class="imageSrcLeft" data-src="img/left-img/left-img2.jpg"></div>
+            <div class="imageSrcLeft" data-src="img/left-img/left-img3.jpg"></div>
+            <div class="imageSrcLeft" data-src="img/left-img/left-img4.jpg"></div>
+        </div>
+
+        <div class="rightData">
+            <div class="imageSrcRight" data-src="img/right-img/right-img1.jpg"></div>
+            <div class="imageSrcRight" data-src="img/right-img/right-img2.jpg"></div>
+            <div class="imageSrcRight" data-src="img/right-img/right-img3.jpg"></div>
+            <div class="imageSrcRight" data-src="img/right-img/right-img4.jpg"></div>
+        </div>
+    </body>
+</html>
