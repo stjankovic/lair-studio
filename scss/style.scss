@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 * {
 	font-family: 'Raleway', sans-serif;
-	overflow: hidden !important;
+	overflow-y: hidden !important;
 }
 body {
     margin: 0 auto;
@@ -219,7 +219,7 @@ hr {
 }
 @media screen and ( max-width: 800px ){
 	* {
-		overflow: hidden;
+		overflow-y: hidden !important;
 	}
 	.leftContainer{
 		left: 0px;
@@ -299,12 +299,10 @@ hr {
 		border: 1px solid #FFF;
 	}
 	.overlay-nav {
-		overflow: visible !important;
 		top: 20vh;
 		width: 100vw;
 		left: 0px;
 		#inner {
-			overflow: visible !important;
 			width: 100%;
 			ul {
 				overflow: visible !important;
