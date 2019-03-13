@@ -155,30 +155,23 @@ hr {
 }
 
 .overlay .overlay-about {
-  margin-top: 30vh;
-  margin-right: 10vw;
-  width: 70vw;
-  float: right;
+  margin-top: 20vh;
+  margin-right: 10vw !important;
+  width: 40vw;
   text-align: right;
+  float: right;
 }
 
 .overlay .overlay-about #heading {
-  float: right;
-  width: 30vw;
-}
-
-.overlay .overlay-about #heading h1 {
-  padding: 0px;
-  font-weight: bold;
-  text-align: left;
   color: white;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
 }
 
 .overlay .overlay-about #content {
-  margin-top: 10px;
-  float: right;
+  margin-top: 15px;
   color: #c8b29b;
-  line-height: 25px;
 }
 
 .overlay.open {
@@ -354,15 +347,17 @@ hr {
     overflow: visible !important;
   }
   .overlay-about {
-    margin-top: 12vh !important;
-    text-align: center !important;
-    float: left !important;
+    margin-top: 10vh !important;
     width: 80vw !important;
     margin-left: 10vw !important;
   }
   .overlay-about #content {
-    line-height: 20px !important;
-    font-size: 12px;
+    position: absolute;
+    color: white;
+    text-align: center;
+    left: 10%;
+    top: 18vh;
+    width: 80%;
   }
   .overlay-about #heading {
     float: left !important;
