@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway");
 * {
   font-family: 'Raleway', sans-serif;
+  overflow: hidden !important;
 }
 
 body {
