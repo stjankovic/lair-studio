@@ -6,6 +6,13 @@ body {
     margin: 0 auto;
     padding: 0;
 }
+.leftData{
+	display: none!important;
+}
+
+.rightData{
+	display: none!important;
+}
 hr {
 	border-color: #c8b29b;
 	background-color: #c8b29b;
@@ -29,40 +36,42 @@ hr {
 }
 .container {
     width: 100%;
-    height: 100vh;
-    .leftContainer{
-        left: 0px;
-        width: 50%;
-        height: 100vh;
-        position: absolute;
-        overflow: hidden;
-        .nextImage{
-            transform:translateY(100%);
-        }
-        .currentImage{
-            transform:translateY(0%);
-        }
-        .prevImage{
-            transform:translateY(-100%);
-        }
-    }
-    .rightContainer{
-        right: 0px;
-        width: 50%;
-        height: 100vh;
-        position: absolute;
-        overflow: hidden;
-        .nextImage{
-            transform:translateY(-100%);
-        }
-        .currentImage{
-            transform:translateY(0%);
-        }
-        .prevImage{
-            transform:translateY(100%);
-        }
-    }
+	height: 100vh;
 }
+	
+.leftContainer{
+	left: 0px;
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+	.nextImage{
+		transform:translateY(100%);
+	}
+	.currentImage{
+		transform:translateY(0%);
+	}
+	.prevImage{
+		transform:translateY(-100%);
+	}
+}
+.rightContainer{
+	right: 0px;
+    width: 50%;
+    height: 100vh;
+    position: absolute;
+    overflow: hidden;
+	.nextImage{
+		transform:translateY(-100%);
+	}
+	.currentImage{
+		transform:translateY(0%);
+	}
+	.prevImage{
+		transform:translateY(100%);
+	}
+}
+
 .overlay{
 	width: 100vw;
 	height: 100vh;
@@ -108,7 +117,7 @@ hr {
     }
     .overlay-about {
 		margin-top: 30vh;
-		margin-right: 10vw;
+		
 		width: 70vw;
 		float: right;
 		text-align: right;
@@ -208,17 +217,11 @@ hr {
     }
 }
 
-@media screen and ( max-height: 730px ){
+@media screen and ( max-width: 650px ){
+	.container{
+	    height: 100%;
+	}
 
-
-}
-
-@media screen and ( max-height: 640px ){
-
-}
-
-@media screen and ( max-width: 640px ){
-	
 	.leftContainer{
 		left: 0px;
 	    width: 100%;
@@ -243,8 +246,8 @@ hr {
 		background-size: cover;
 		-webkit-transition: all 1000ms cubic-bezier(0.23, 1, 0.32, 1);
 		transition:         all 1000ms cubic-bezier(0.23, 1, 0.32, 1);
-		// -webkit-perspective: 1000;
-		// -webkit-backface-visibility: hidden;
+		-webkit-perspective: 1000;
+		-webkit-backface-visibility: hidden;
 	}
 	
 	.leftContainer .nextImage{
@@ -276,5 +279,5 @@ hr {
 		transform:translateX(100%);
 		-webkit-transform:translateX(100%);
 	}
-
+	
 }
