@@ -146,6 +146,7 @@ hr {
 
 .overlay .overlay-about {
   margin-top: 30vh;
+  margin-right: 10vw;
   width: 70vw;
   float: right;
   text-align: right;
@@ -160,7 +161,7 @@ hr {
   margin-bottom: 10px !important;
   padding: 0px;
   font-weight: bold;
-  text-align: left !important;
+  text-align: left;
   color: white;
 }
 
@@ -258,25 +259,7 @@ hr {
   }
 }
 
-@media screen and (max-height: 730px) {
-  .overlay p {
-    font-size: 20px;
-    line-height: 28px;
-  }
-}
-
-@media screen and (max-height: 640px) {
-  .overlay p {
-    font-size: 16px;
-    line-height: 24px;
-  }
-  h1 {
-    font-size: 40px;
-    line-height: 50px;
-  }
-}
-
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 800px) {
   .leftContainer {
     left: 0px;
     width: 100%;
@@ -326,16 +309,9 @@ hr {
     transform: translateX(100%);
     -webkit-transform: translateX(100%);
   }
-  h1 {
-    font-size: 40px;
-    line-height: 50px;
-  }
-  .overlay p {
-    font-size: 16px;
-    line-height: 24px;
-  }
   .logo {
     top: 35px;
+    left: 50%;
   }
   .nav {
     top: 37px;
@@ -349,11 +325,34 @@ hr {
     background: none;
     border: 1px solid #FFF;
   }
-  .overlay p {
-    margin-top: -30px;
+  .overlay-nav {
+    top: 20vh;
+    width: 100vw;
+    left: 0px;
   }
-  .socialIcons {
-    bottom: 100px;
+  .overlay-nav #inner {
+    width: 100%;
+  }
+  .overlay-about {
+    margin-top: 7vh !important;
+    text-align: center !important;
+    float: left !important;
+    width: 80vw !important;
+    margin-left: 10vw !important;
+  }
+  .overlay-about #content {
+    line-height: 20px !important;
+  }
+  .overlay-about #heading {
+    float: left !important;
+    width: 100% !important;
+  }
+  .overlay-about #heading h1 {
+    margin-bottom: 10px !important;
+    padding: 0px;
+    font-weight: bold;
+    text-align: center !important;
+    color: white;
   }
 }
 /*# sourceMappingURL=style.css.map */
