@@ -129,7 +129,6 @@ hr {
 .overlay .overlay-nav ul {
   margin-left: -40px;
   margin-top: 50%;
-  margin-bottom: 10%;
   list-style: none;
 }
 
@@ -163,7 +162,6 @@ hr {
 }
 
 .overlay .overlay-about #heading h1 {
-  margin-bottom: 10px !important;
   padding: 0px;
   font-weight: bold;
   text-align: left;
@@ -366,7 +364,6 @@ hr {
   }
   .overlay-about #heading h1 {
     font-size: 20px;
-    margin-bottom: 10px !important;
     padding: 0px;
     font-weight: bold;
     text-align: center !important;
