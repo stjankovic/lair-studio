@@ -3,6 +3,9 @@
 	font-family: 'Raleway', sans-serif;
 	overflow-y: hidden !important;
 }
+html {
+	min-height: 100vh;
+}
 body {
     margin: 0 auto;
     padding: 0;
@@ -302,8 +305,10 @@ hr {
 		top: 20vh;
 		width: 100vw;
 		left: 0px;
+		overflow: visible !important;
 		#inner {
 			width: 100%;
+			overflow: visible !important;
 			ul {
 				overflow: visible !important;
 				li {
