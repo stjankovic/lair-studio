@@ -218,7 +218,9 @@ hr {
     }
 }
 @media screen and ( max-width: 800px ){
-
+	* {
+		overflow: hidden;
+	}
 	.leftContainer{
 		left: 0px;
 	    width: 100%;
@@ -297,11 +299,19 @@ hr {
 		border: 1px solid #FFF;
 	}
 	.overlay-nav {
+		overflow: visible !important;
 		top: 20vh;
 		width: 100vw;
 		left: 0px;
 		#inner {
+			overflow: visible !important;
 			width: 100%;
+			ul {
+				overflow: visible !important;
+				li {
+					overflow: visible !important;
+				}
+			}
 		}
 	}
 	.overlay-about {
