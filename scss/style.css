@@ -258,10 +258,25 @@ hr {
   }
 }
 
-@media screen and (max-width: 650px) {
-  .container {
-    height: 100%;
+@media screen and (max-height: 730px) {
+  .overlay p {
+    font-size: 20px;
+    line-height: 28px;
   }
+}
+
+@media screen and (max-height: 640px) {
+  .overlay p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media screen and (max-width: 640px) {
   .leftContainer {
     left: 0px;
     width: 100%;
@@ -310,6 +325,35 @@ hr {
   .rightContainer .prevImage {
     transform: translateX(100%);
     -webkit-transform: translateX(100%);
+  }
+  h1 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .overlay p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .logo {
+    top: 35px;
+  }
+  .nav {
+    top: 37px;
+    right: 25px;
+  }
+  .close {
+    top: 37px;
+    right: 25px;
+  }
+  .nav {
+    background: none;
+    border: 1px solid #FFF;
+  }
+  .overlay p {
+    margin-top: -30px;
+  }
+  .socialIcons {
+    bottom: 100px;
   }
 }
 /*# sourceMappingURL=style.css.map */
