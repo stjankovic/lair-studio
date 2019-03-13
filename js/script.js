@@ -3,6 +3,8 @@ var currentRight = 1;
 
 var animationInterval = 2000;
 
+document.body.addEventListener('touchstart', function(e){ e.preventDefault(); });
+
 $( document ).ready(function() {
 
 	$('html, body').css({
