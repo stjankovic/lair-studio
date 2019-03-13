@@ -3,6 +3,11 @@ var currentRight = 1;
 
 var animationInterval = 2000;
 
+$('html, body').on('touchstart touchmove', function(e){ 
+	//prevent native touch activity like scrolling
+	e.preventDefault(); 
+});
+
 $( document ).ready(function() {
 
 	$('html, body').css({
