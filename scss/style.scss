@@ -28,6 +28,15 @@ hr {
 	height: 1.5px;
 	color: #c8b29b;
 }
+f {
+	a {
+		text-decoration: none;
+		color: #c8b29b;
+	}
+	a:hover {
+		color: white;
+	}
+}
 .close {
 	cursor: pointer;
 }
@@ -314,6 +323,9 @@ hr {
 				}
 			}
 		}
+		#content {
+			overflow: visible !important;
+		}
 	}
 	.overlay-about {
 		margin-top: 10vh !important;
@@ -332,7 +344,6 @@ hr {
 			width: 100% !important;
 			h1 {
 				font-size: 20px;
-				// margin-bottom: 10px !important;
 				padding: 0px;
 				font-weight: bold;
 				text-align: center !important; 

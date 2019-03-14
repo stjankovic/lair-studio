@@ -34,6 +34,15 @@ hr {
   color: #c8b29b;
 }
 
+f a {
+  text-decoration: none;
+  color: #c8b29b;
+}
+
+f a:hover {
+  color: white;
+}
+
 .close {
   cursor: pointer;
 }
@@ -344,6 +353,9 @@ hr {
     overflow: visible !important;
   }
   .overlay-nav #inner ul li {
+    overflow: visible !important;
+  }
+  .overlay-nav #content {
     overflow: visible !important;
   }
   .overlay-about {
