@@ -1,6 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway");
 * {
-  font-family: 'Raleway', sans-serif;
   overflow-y: hidden !important;
 }
 
@@ -30,13 +28,14 @@ html, body {
 hr {
   border-color: #c8b29b;
   background-color: #c8b29b;
-  height: 1.5px;
   color: #c8b29b;
+  height: 2px;
 }
 
 f a {
   text-decoration: none;
   color: #c8b29b;
+  font-family: 'Avenir LT Std 35 Light';
 }
 
 f a:hover {
@@ -125,6 +124,7 @@ f a:hover {
 }
 
 .overlay .overlay-nav {
+  margin-right: 5%;
   width: 35vw;
   height: 100vh;
   position: absolute;
@@ -134,16 +134,19 @@ f a:hover {
 .overlay .overlay-nav #inner {
   width: 80%;
   margin-left: 40px;
+  font-family: 'Avenir LT Std 35 Light' !important;
 }
 
 .overlay .overlay-nav #inner #content {
   color: #ffffff;
   line-height: 25px;
+  font-family: 'Avenir LT Std 35 Light' !important;
 }
 
 .overlay .overlay-nav ul {
   margin-left: -40px;
-  margin-top: 50%;
+  margin-top: 60%;
+  margin-bottom: 10%;
   list-style: none;
 }
 
@@ -152,11 +155,12 @@ f a:hover {
 }
 
 .overlay .overlay-nav ul li a {
-  letter-spacing: 2px;
+  letter-spacing: 3px;
   font-size: 25px;
   font-weight: bold;
   text-decoration: none;
   color: #c8b29b;
+  font-family: 'Helvetica Neue Bold' !important;
 }
 
 .overlay .overlay-nav ul li a:hover {
@@ -164,9 +168,9 @@ f a:hover {
 }
 
 .overlay .overlay-about {
-  margin-top: 20vh;
-  margin-right: 10vw !important;
-  width: 40vw;
+  margin-top: 40vh;
+  margin-right: 7vw !important;
+  width: 41vw;
   text-align: right;
   float: right;
 }
@@ -176,11 +180,18 @@ f a:hover {
   text-align: left;
   margin: 0px;
   padding: 0px;
+  margin-left: 50%;
+  font-family: 'Helvetica Neue Bold' !important;
+  font-weight: bold;
+  font-size: 12px !important;
 }
 
 .overlay .overlay-about #content {
-  margin-top: 15px;
+  margin-top: 10px;
   color: #c8b29b;
+  font-size: 15px !important;
+  line-height: 24px;
+  font-family: 'Avenir LT Std 35 Light' !important;
 }
 
 .overlay.open {
@@ -340,7 +351,7 @@ f a:hover {
     border: 1px solid #FFF;
   }
   .overlay-nav {
-    top: 20vh;
+    top: 17vh;
     width: 100vw;
     left: 0px;
     overflow: visible !important;
@@ -374,6 +385,7 @@ f a:hover {
   .overlay-about #heading {
     float: left !important;
     width: 100% !important;
+    margin-left: 0px !important;
   }
   .overlay-about #heading h1 {
     font-size: 20px;

@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
 * {
-	font-family: 'Raleway', sans-serif;
 	overflow-y: hidden !important;
 }
 html {
@@ -25,13 +23,14 @@ html, body{
 hr {
 	border-color: #c8b29b;
 	background-color: #c8b29b;
-	height: 1.5px;
 	color: #c8b29b;
+	height: 2px;
 }
 f {
 	a {
 		text-decoration: none;
 		color: #c8b29b;
+		font-family: 'Avenir LT Std 35 Light';
 	}
 	a:hover {
 		color: white;
@@ -100,6 +99,7 @@ f {
 	opacity: 0;
     transition: all 1000ms cubic-bezier(0.23, 1, 0.32, 1);
     .overlay-nav{
+		margin-right: 5%;
         width: 35vw;
         height: 100vh;
         position: absolute;
@@ -107,24 +107,27 @@ f {
 		#inner {
 			width: 80%;
 			margin-left: 40px;
+			font-family: 'Avenir LT Std 35 Light' !important;
 			#content {
 				color: #ffffff;
 				line-height: 25px;
+				font-family: 'Avenir LT Std 35 Light' !important;
 			}
 		}
         ul {
 			margin-left: -40px;
-			margin-top: 50%;
-			// margin-bottom: 10%;
+			margin-top: 60%;
+			margin-bottom: 10%;
             list-style: none;
             li {
 				margin: 10px 0px;
                 a {
-					letter-spacing: 2px;
+					letter-spacing: 3px;
 					font-size: 25px;
 					font-weight: bold;
                     text-decoration: none;
-                    color: #c8b29b;
+					color: #c8b29b;
+					font-family: 'Helvetica Neue Bold' !important;
 				}
 				a:hover {
 					color:white;
@@ -134,9 +137,9 @@ f {
         }
     }
     .overlay-about {
-		margin-top: 20vh;
-		margin-right: 10vw !important;
-		width: 40vw;
+		margin-top: 40vh;
+		margin-right: 7vw !important;
+		width: 41vw;
 		text-align: right;
 		float: right;
 		#heading {
@@ -144,10 +147,17 @@ f {
 			text-align: left;
 			margin: 0px;
 			padding: 0px;
+			margin-left: 50%;
+			font-family: 'Helvetica Neue Bold' !important;
+			font-weight: bold;
+			font-size: 12px !important;
 		}
 		#content {
-			margin-top: 15px;
+			margin-top: 10px;
 			color: #c8b29b;
+			font-size: 15px !important;
+			line-height: 24px;
+			font-family: 'Avenir LT Std 35 Light' !important;
 		}
 	}
 }
@@ -309,7 +319,7 @@ f {
 		border: 1px solid #FFF;
 	}
 	.overlay-nav {
-		top: 20vh;
+		top: 17vh;
 		width: 100vw;
 		left: 0px;
 		overflow: visible !important;
@@ -342,6 +352,7 @@ f {
 		#heading {
 			float: left !important;
 			width: 100% !important;
+			margin-left: 0px !important;
 			h1 {
 				font-size: 20px;
 				padding: 0px;
